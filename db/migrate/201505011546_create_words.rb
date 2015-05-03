@@ -1,10 +1,3 @@
-require 'active_record'
-require 'minitest/autorun'
-require 'minitest/spec'
-
-ActiveRecord::Base.establish_connection adapter: "sqlite3", database: ":memory:"
-
-
 class CreateWords < ActiveRecord::Migration
   def change
     create_table :words do |t|
@@ -13,6 +6,3 @@ class CreateWords < ActiveRecord::Migration
     end
   end
 end
-
-
-ActiveRecord::Migrator.up "db/migrate"
