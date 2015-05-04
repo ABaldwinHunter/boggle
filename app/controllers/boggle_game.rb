@@ -3,7 +3,7 @@ get '/' do
 end
 
 get '/game/new' do
-  erb :
+
 end
 
 get '/guess' do
