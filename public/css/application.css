@@ -60,5 +60,14 @@ h1 {
 }
 
 .shake:hover {
-  background-color: #FFFFCC
+  background-color: #FFFFCC;
 }
+
+/*h2 {
+  font-color: black;
+}
+
+h2:hover {
+  font-color: black;
+}
+*/

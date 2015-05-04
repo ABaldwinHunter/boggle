@@ -21,6 +21,19 @@ BoggleGame.prototype.shake = function() {
     this.updateDisplay();
 }
 
+BoggleGame.prototype.spinDice = function() {
+  var self = this;
+  for (var i = 0; i < self.board.length; i++) {
+    var die = self.board[i];
+    var cell = document.getElementById("index-" + i)
+    setInterval(function() {
+      var cell = document.getElementById("index-" + i))
+    }, 50)
+  }
+}
+
+
+
 BoggleGame.prototype.toString = function() {
   var facingUp = [];
   for (var i =0; i < this.board.length; i++) {
