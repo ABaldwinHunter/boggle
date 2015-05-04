@@ -27,8 +27,8 @@ BoggleGame.prototype.spinDice = function() {
     var die = self.board[i];
     var cell = document.getElementById("index-" + i)
     setInterval(function() {
-      var cell = document.getElementById("index-" + i))
-    }, 50)
+      var cell = document.getElementById("index-" + i);
+    }, 50);
   }
 }
 
