@@ -18,6 +18,7 @@ BoggleGame.prototype.createDice = function() {
 
 BoggleGame.prototype.shake = function() {
     shuffle(this.board);
+    this.updateDisplay();
 }
 
 BoggleGame.prototype.toString = function() {
@@ -33,9 +34,10 @@ BoggleGame.prototype.toString = function() {
 }
 
 BoggleGame.prototype.updateDisplay = function() {
-  for (var i=0; i < this.board.length; i++) {
+  var landedSides = this.toString();
+  for (var i=0; i < landedSides.length; i++) {
     var cell = document.getElementById("index-" + i);
-    cell.innerHTML = this.board[i][0];
+    cell.innerHTML = landedSides[i];
   }
 }
 
