@@ -5,13 +5,7 @@ class BoggleGame
     @board = []
     @letters = ("A".."Z").to_a
     @turns = 0
-    # q_to_Qu!
   end
-
-  # def q_to_Qu!
-  #   i = letters.index("Q")
-  #   letters[i] = "Qu"
-  # end
 
   def shake!
     16.times do
