@@ -6,18 +6,18 @@ var BoggleGame = function(){
 }
 
 BoggleGame.prototype.createDice = function() {
+  var self = this;
   for (var i=0; i< 16; i++) {
     var die = [];
     for (var j=0; j < 6; j++) {
-      die.push(this.letters[Math.floor(Math.random()*26)])
+      die.push(self.letters[Math.floor(Math.random()*26)])
     }
-    this.letters.push(die);
+    self.board.push(die);
   }
 };
 
 BoggleGame.prototype.shake = function() {
     shuffle(this.board);
-  }
 }
 
 BoggleGame.prototype.toString = function() {
@@ -34,8 +34,8 @@ BoggleGame.prototype.toString = function() {
 
 BoggleGame.prototype.updateDisplay = function() {
   for (var i=0; i < this.board.length; i++) {
-    var cell = document.getElementById("index-" + i.toString());
-    cell.innerHTML() = this.board[i];
+    var cell = document.getElementById("index-" + i);
+    cell.innerHTML = this.board[i][0];
   }
 }
 
