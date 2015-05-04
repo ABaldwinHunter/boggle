@@ -3,12 +3,17 @@
 }
 .cell {
   border: black solid 2px;
-  height: 150px;
+  height: 130px;
   width: 150px;
   border-radius: 20%;
-  margin: 2px;
+  margin: 1.5px;
   border: .5em solid #FF9966;
   background-color: white;
+  text-align: center;
+  font-size: 48px;
+  padding: auto;
+  vertical-align: middle;
+  line-height: 140px;
 }
 
 .cell:hover {
@@ -19,7 +24,8 @@
 }
 
 .board {
-  width: 700px;
+  width: 950px;
+  padding: 30px;
   border: 2em solid #99FFCC;
   text-align: center;
   position: relative;
@@ -29,7 +35,7 @@
 
 h1 {
   text-align: center;
-  font-size: 5em;
+  font-size: 4em;
 }
 
 .container {
@@ -41,6 +47,7 @@ h1 {
 .welcome-header {
   margin: auto;
   text-align: center;
+  height: 200px;
 }
 
 .shake {
