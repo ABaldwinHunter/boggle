@@ -36,4 +36,3 @@ BoggleGame.prototype.toString = function() {
 
 
 
-}
