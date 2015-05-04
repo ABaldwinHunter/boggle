@@ -11,6 +11,13 @@
   background-color: white;
 }
 
+.cell:hover {
+  /*background-color:#FFFFCC;*/ /*beige*/
+  /*background-color:#FFCCFF;*/ /*light purple*/
+  /*background-color: #FF0000;*/ /*red */
+  background-color:#FF3300;
+}
+
 .board {
   width: 700px;
   border: 2em solid #99FFCC;
@@ -29,4 +36,22 @@ h1 {
   width: 100%;
   height: 100%;
   background-color: #CC99FF;
+}
+
+.welcome-header {
+  margin: auto;
+  text-align: center;
+}
+
+.shake {
+  margin: 20px;
+  height: 50px;
+  width: 200px;
+  border-radius: 22%;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.shake:hover {
+  background-color: #FFFFCC
 }
