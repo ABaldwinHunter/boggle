@@ -1,0 +1,3 @@
+var BoggleGame = function(){
+
+}
