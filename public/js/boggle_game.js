@@ -34,7 +34,7 @@ BoggleGame.prototype.toString = function() {
 
 BoggleGame.prototype.updateDisplay = function() {
   for (var i=0; i < this.board.length; i++) {
-    var cell = document.getElementById("index-" + i.toString())
+    var cell = document.getElementById("index-" + i.toString());
     cell.innerHTML() = this.board[i];
   }
 }
