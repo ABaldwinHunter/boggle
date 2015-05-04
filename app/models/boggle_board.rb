@@ -24,10 +24,10 @@ class BoggleGame
 
 end
 
-p test = BoggleGame.new
-p test.shake!
-p test
-puts test
+# p test = BoggleGame.new
+# p test.shake!
+# p test
+# puts test
 
 
 
