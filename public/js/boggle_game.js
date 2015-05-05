@@ -5,19 +5,40 @@ var BoggleGame = function(){
   this.wordsMade = [];
 }
 
+// BoggleGame.prototype.createDice = function() {
+//   var self = this;
+//   for (var i=0; i< 16; i++) {
+//     var die = [];
+//     for (var j=0; j < 6; j++) {
+//       die.push(self.letters[Math.floor(Math.random()*26)])
+//     }
+//     self.board.push(die);
+//   }
+// };
+
 BoggleGame.prototype.createDice = function() {
   var self = this;
   for (var i=0; i< 16; i++) {
-    var die = [];
-    for (var j=0; j < 6; j++) {
-      die.push(self.letters[Math.floor(Math.random()*26)])
-    }
-    self.board.push(die);
+    self.board.push(new Die(););
   }
 };
 
+BoggleGame.prototype.wireDice = function() {
+  for (var j = 0; j < this.board.length; j++) {
+    var die = this.board[j];
+    die.indEx = j;
+
+    die.neighbors.push
+
+  }
+}
+
+
+
+
 BoggleGame.prototype.shake = function() {
     shuffle(this.board);
+
     this.updateDisplay();
 }
 
