@@ -6,8 +6,29 @@ class BoggleGame
     @letters = ("A".."Z").to_a
     @turns = 0
     @unused_variable = "what"
+
+
+
+    @unused_variable = "what"
+    @unused_variable = "what"
+
+
+
+
   end
 
+
+  hello
+  m;osugh;
+
+
+  wrgouher[ough[eugh
+
+
+    wprigj[eripgj
+
+
+      ]]]
   def long_method
     puts "hello"
     if (2+2) == 4
