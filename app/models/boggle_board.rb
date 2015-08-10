@@ -5,6 +5,72 @@ class BoggleGame
     @board = []
     @letters = ("A".."Z").to_a
     @turns = 0
+    @unused_variable = "what"
+  end
+
+  def long_method
+    puts "hello"
+    if (2+2) == 4
+      puts "hello"
+    else
+      puts "what?"
+    end
+    puts "hello"
+    if (2+2) == 4
+      puts "hello"
+    else
+      puts "what?"
+    end
+    puts "hello"
+    if (2+2) == 4
+      puts "hello"
+    else
+      puts "what?"
+    end
+    puts "hello"
+    if (2+2) == 4
+      puts "hello"
+    else
+      puts "what?"
+    end
+    puts "hello"
+    if (2+2) == 4
+      puts "hello"
+    else
+      puts "what?"
+    end
+    puts "hello"
+    if (2+2) == 4
+      puts "hello"
+    else
+      puts "what?"
+    end
+    puts "hello"
+    if (2+2) == 4
+      puts "hello"
+    else
+      puts "what?"
+    end
+    puts "hello"
+    if (2+2) == 4
+      puts "hello"
+    else
+      puts "what?"
+    end
+    puts "hello"
+    if (2+2) == 4
+      puts "hello"
+    else
+      puts "what?"
+    end
+    puts "hello"
+    if (2+2) == 4
+      puts "hello"
+    else
+      puts "what?"
+    end
+  end
+
   end
 
   def shake!
