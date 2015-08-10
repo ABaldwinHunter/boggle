@@ -13,22 +13,8 @@ class BoggleGame
     @unused_variable = "what"
 
 
-
-
   end
 
-
-  hello
-  m;osugh;
-
-
-  wrgouher[ough[eugh
-
-
-    wprigj[eripgj
-
-
-      ]]]
   def long_method
     puts "hello"
     if (2+2) == 4
@@ -92,8 +78,6 @@ class BoggleGame
     end
   end
 
-  end
-
   def shake!
     16.times do
       die = letters.sample(6)
@@ -107,7 +91,42 @@ class BoggleGame
 
   def to_s
     board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+
   end
+
+  def to_z
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+    board.map.with_index {|die, i| (i+1) %4 == 0 ? "#{die[0]} \n" : die[0]+"  "}.join.gsub("Q ", "Qu")
+
+  end
+
 
 end
 
