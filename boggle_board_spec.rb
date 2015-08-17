@@ -22,5 +22,4 @@ describe BoggleGame do
 
     it "" do
     end
-
 end
