@@ -3,9 +3,7 @@ get '/' do
 end
 
 get '/game/new' do
-
 end
 
 get '/guess' do
-
 end
