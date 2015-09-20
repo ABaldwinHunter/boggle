@@ -15,4 +15,3 @@ ratings:
 exclude_paths:
 - config/**/*
 - db/**/*
-
