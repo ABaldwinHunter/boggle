@@ -5,15 +5,7 @@ engines:
   eslint:
     enabled: true
   csslint:
-    enabled: true
-  duplication:
-    enabled: true
-    config:
-      languages:
-      - ruby
-      - javascript
-      - python
-      - php
+    enabled: false
 ratings:
   paths:
   - "**.rb"
