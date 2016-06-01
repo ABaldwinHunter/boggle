@@ -5,7 +5,7 @@ engines:
   eslint:
     enabled: true
   csslint:
-    enabled: true
+    enabled: false
 ratings:
   paths:
   - "**.rb"
@@ -15,4 +15,4 @@ ratings:
 exclude_paths:
 - config/**/*
 - db/**/*
-
+- app/spec/**/*
