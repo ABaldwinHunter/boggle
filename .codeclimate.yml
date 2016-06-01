@@ -6,9 +6,6 @@ engines:
     enabled: true
   csslint:
     enabled: false
-  duplication:
-    enabled: true
-    # error
 ratings:
   paths:
   - "**.rb"
